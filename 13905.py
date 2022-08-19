@@ -23,7 +23,7 @@ def bfs(cnt,s,e,house):
 
 N,M = map(int,sys.stdin.readline().split())
 s,e = map(int,sys.stdin.readline().split())
-house = [[] for _ in range(M)]
+house = [[] for _ in range(100001)]
 maxCost = 0
 for _ in range(M):
     h1,h2,k = map(int,sys.stdin.readline().split())
