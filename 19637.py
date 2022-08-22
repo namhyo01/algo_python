@@ -11,3 +11,22 @@ for _ in range(N):
 for _ in range(M):
     power = int(sys.stdin.readline())
     print(title[bisect_left(value,power)])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
